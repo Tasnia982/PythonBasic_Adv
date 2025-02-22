@@ -9,12 +9,12 @@ Student={
     },
     "CGPA":3.95 
 }
-# print(Student)
-# print(Student["sub_num"])
-# print(Student["sub_num"]["ML"])
-# Student["ML"]=49
-# print(Student["sub_num"])
-# print("-----------------------------------------------------------")
+print(Student)
+print(Student["sub_num"])
+print(Student["sub_num"]["ML"])
+Student["ML"]=49
+print(Student["sub_num"])
+print("-----------------------------------------------------------")
 
 
 
@@ -23,38 +23,38 @@ Student={
 
 
 
-# print("---------dictionary keys() method----------")
-# print(Student.keys())
-# print(list(Student.keys()))
-# print(str(Student.keys()))
-# print(type(Student))
-# print(tuple(Student.keys()))
-# print(type(Student))
-# print("-----------------Lenth Method----------------------")
-# print(len(Student))
-# print(type(len(Student)))
-# print("------------------Values method---------------------")
-# print(Student.values())
-# print(list(Student.values()))
-# print(type(Student.values()))
-# print(len(Student["sub_num"]))
-# print(type(Student["sub_num"]))
-# print("-------------------------------")
+print("---------dictionary keys() method----------")
+print(Student.keys())
+print(list(Student.keys()))
+print(str(Student.keys()))
+print(type(Student))
+print(tuple(Student.keys()))
+print(type(Student))
+print("-----------------Lenth Method----------------------")
+print(len(Student))
+print(type(len(Student)))
+print("------------------Values method---------------------")
+print(Student.values())
+print(list(Student.values()))
+print(type(Student.values()))
+print(len(Student["sub_num"]))
+print(type(Student["sub_num"]))
+print("-------------------------------")
 
-# print("-----------------items method-------------------------")
-# print(Student.items())
-# print(list(Student.items()))
-# print(type(Student.items()))
+print("-----------------items method-------------------------")
+print(Student.items())
+print(list(Student.items()))
+print(type(Student.items()))
 
 
 #dictionary  get method use for if any key is not present in dictionary then it will return None rether then giving error
 
-# print("----------------get method-------------------------")
-# print(Student.get("Name"))
-# print(Student.get("Age"))
-# print(Student.get("Nam"))
-# print(Student.get("sub_num3"))
-# print(type(Student.get("Nam")))
+print("----------------get method-------------------------")
+print(Student.get("Name"))
+print(Student.get("Age"))
+print(Student.get("Nam"))
+print(Student.get("sub_num3"))
+print(type(Student.get("Nam")))
 
 
 
